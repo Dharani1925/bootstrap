@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.title h1{
+    text-align: center;
+    font-size: 40PX;
+    color:white;
+    
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+    
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(117, 2, 2);
+    
+}
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+    align-items: start;
+}
+
+.menus ul li{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.menus ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    justify-content: end;
+    color: bisque;
+
+}
+.menus a:hover{
+    color: #d38929;
+}
+.bgimg{
+    background-image: url(images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    /* background-size: 100px 100px; */
+    /* background-size: contain; */
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    position: relative;
+    color: #ddc330;
+
+}
+/* .bgimg-txt {
+    transform: translate();
+    padding: 5px;
+    text-shadow: 5px 10px 2px #332121,-3px 6px 5px rgb(4, 34, 34); 
+    line-height: 1.0;
+    font-size: 25px;
+    position: absolute;
+    width: 200vh;
+    margin-left: 30px;
+    top: 0%;
+    transform: translate(0%,20%);
+    text-align: justify;
+} */
+.btn{
+     color: #f0f8ff; 
+    background-color: rgb(32, 11, 28);
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px;
+    transform: translate(280%,1000%);
+    width: 200px;
+
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn a:hover{
+    color: #ada240;
+}
+.abt {
+    background-color: rgb(46, 3, 3);
+    /* background: linear-gradient(90deg,rgba(255,255,255,0)0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%); */
+    padding: 40px;
+}
+.abt strong{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
+
+}
+.abt-txt{
+    text-align: justify;
+    margin: 0 auto 40px auto;
+    width: 70%;
+    color:#dbc1b2;
+    
+}
+.abt-txt h1{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+}
+.abt-txt p{
+    font-size: 25px;
+    line-height: 1.8;
+}
+.abt-sec{
+    display: flex;
+    justify-content:space-around;
+}
+.pic img{
+    width: 240px;
+    height: 240px;
+    margin: 5px;
+    border-radius: 12px;
+}
+.pic{
+    width: 250px;
+    height: 395px;
+    border-radius: 12px;
+    padding:10px;
+    box-shadow: 0px 0px 5px 5px #b97249;
+}
+.pic:hover{
+    transform: scale(1.05);
+}
+.pic-txt{
+    padding:10px;
+    /* line-height: 35px; */
+    color: #ffffff;
+}
+.pic-txt h3{
+    font-size: 21px;
+    color: #ffffff;
+}
+.pic-txt h4{
+    font-size: 21px;
+    margin: 20px 0;
+    color:#ffffff ;
+}
+.pic-txt h5{
+    font-size: 20px;
+     color: yellow;
+}
+.advertisement{
+    background-color: #d38929;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.ad-content{
+    padding: 30px;
+}
+.ad-txt{
+    line-height: 70px;
+    text-align: center;
+}
+.ad-txt h2{
+    font-size: 32px;
+    color: #000000;
+}
+.ad-txt p{
+    font-size: 25px;
+    color: #332121;
+}
+.ad-button{
+    background-color:#36061e;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.ad-button:hover{
+    background-color: #701b3c;
+    color: rgb(17, 39, 39);
+}
+.product-pic{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    /* filter:grayscale(100%); */
+    /* filter: hue-rotate(180deg);   */
+    /* filter: invert(70%); */
+    /* filter: blur(5px) hue-rotate(180deg); */  
+}
+.ad-pic{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #29170c;
+    padding: 10px;
+    margin: 10px 40px;
+
+}
+.ad-picture img{
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.ad-pic:hover{
+    transform: scale(1.05);
+}
+.ad-pic-txt{
+    /* line-height: 40px; */
+    padding: 10px;
+}
+.ad-pic-txt h3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #332121;
+    
+}
+.ad-pic-txt h4{
+    font-size: 18px;
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 53, 27);
+}
+.ad-pic-txt h5{
+    font-size: 17px;
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 53, 27);
+    text-decoration: line-through;
+}
+.ad-pic-txt h6{
+    font-size: 18px;
+    color: yellow;
+}
+.qhavalonce-footer{
+    background-color: #000;
+    color: #ccc;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 25px 40px;
+    width: 90%;
+    
+}    
+.footer-cont h4{
+    font-size: 18px;
+    color: #e8ecf1;
+    margin: 10px 0;
+    text-shadow: 5px 3px 1px #462c2c,-3px 6px 5px rgb(161, 177, 177) ;
+    text-align: left;
+
+}
+.footer-cont ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+.footer ul li{
+    margin-bottom: 10px;
+}
+.footer-cont ul li a{
+    color: #dfd1d1;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.footer-cont ul li a:hover{
+    color: #e27c7c;
+}
+.footer-email{
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.footer-top{
+    line-height: 1.9;
+
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.footer-links a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.footer-links a:hover{
+    color: #e27c7c;
+}
+.footer-lang{
+    font-size: 20px;
+    color: #aaa;
+}
+.footer-social{
+    margin-top: 16px;
+    display: flex;
+    justify-content:center;
+    gap: 18px;
+}
+.footer-social img{
+    width: 28px;
+    height: 28px;
+
+}
+.footer-social img:hover{
+    transform: scale(1.15);
+
+}
+.footer-txt{
+    margin-top:16px;
+    font-size: 13px;
+    color: #777;
+}
